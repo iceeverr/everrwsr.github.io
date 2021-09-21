@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://everrwsr.github.io</id>
     <title>mumu&apos;s blog</title>
-    <updated>2021-09-21T06:22:12.852Z</updated>
+    <updated>2021-09-21T06:34:20.176Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://everrwsr.github.io"/>
     <link rel="self" href="https://everrwsr.github.io/atom.xml"/>
@@ -11,19 +11,118 @@
     <icon>https://everrwsr.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, mumu&apos;s blog</rights>
     <entry>
+        <title type="html"><![CDATA[优化别人电脑必备]]></title>
+        <id>https://everrwsr.github.io/post/you-hua-bie-ren-dian-nao-bi-bei/</id>
+        <link href="https://everrwsr.github.io/post/you-hua-bie-ren-dian-nao-bi-bei/">
+        </link>
+        <updated>2021-09-21T06:29:47.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>经常上手别人电脑的话还是可以试试</p>
+</blockquote>
+<h2 id="1优化速度和基础设置">1.优化速度和基础设置</h2>
+<h2 id="-电脑一键优化助手-cleanmypc">-<a href="https://1drv.ms/u/s!Ao6TXSbr9sKo7FLkRNOJ3rAg8yRn?e=16HLHx">电脑一键优化助手</a><br>
+-cleanmypc</h2>
+<h2 id="2习惯使用的软件">2.习惯使用的软件</h2>
+<p>-listary</p>
+<ul>
+<li>translucentTB</li>
+<li>snipaste</li>
+</ul>
+<h2 id="3自由上网">3.自由上网</h2>
+<p>https://bulink.me/sub/q6gqy/vm</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[常用软件备份]]></title>
+        <id>https://everrwsr.github.io/post/chang-yong-ruan-jian-bei-fen/</id>
+        <link href="https://everrwsr.github.io/post/chang-yong-ruan-jian-bei-fen/">
+        </link>
+        <updated>2021-09-21T06:25:26.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="1基础类">1.基础类</h2>
+<p>-火绒<br>
+-qq<br>
+-微信<br>
+-向日葵远程控制<br>
+-snipaste<br>
+-chrome</p>
+<h2 id="2激活windows和office">2.激活windows和office</h2>
+<p>-heu_kms<br>
+-office tool<br>
+/osppilbyid MondoVolume /osppinpkey:HFTND-W9MK4-8B7MJ-B6C4G-XQBR2 /osppsethst:kms.loli.beer /osppsetprt:1688 /osppact<br>
+教程<br>
+-OFFICE插件<br>
+-小恐龙公文助手<br>
+-方方格子<br>
+-islide<br>
+-easychart</p>
+<h2 id="3常用工具软件">3.常用工具软件</h2>
+<p>-bandzip<br>
+-everything<br>
+-quicker<br>
+-uwp<br>
+-ditto<br>
+-translucentTB<br>
+-邮件<br>
+-微软待办<br>
+-万彩办公大师<br>
+-图压<br>
+-adobe全家桶系列<br>
+-IObit UNLOCKER</p>
+<h2 id="4专业相关软件">4.专业相关软件</h2>
+<p>-vscode<br>
+-git<br>
+-github<br>
+-gcc编译器<br>
+-cmake<br>
+-vmware<br>
+-pycharm</p>
+<h2 id="5建模需求软件">5.建模需求软件</h2>
+<p>-matlab<br>
+-spss<br>
+-lingo<br>
+6.学术需求<br>
+-zotero<br>
+-茉莉花插件<br>
+-citavvi<br>
+-mathtype<br>
+-mathpix</p>
+<h2 id="7个人偏好">7.个人偏好</h2>
+<p>-calibre<br>
+-zebraa reader<br>
+-bigjpg<br>
+-cctalk<br>
+-腾讯会议<br>
+-印象笔记<br>
+-idm<br>
+-spacesniffer<br>
+-wiztree<br>
+-mactype<br>
+-fastone<br>
+-obs<br>
+-荐片播放器<br>
+-inpaint<br>
+-坚果云<br>
+-百度网盘</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[常用链接]]></title>
         <id>https://everrwsr.github.io/post/chang-yong-lian-jie/</id>
         <link href="https://everrwsr.github.io/post/chang-yong-lian-jie/">
         </link>
         <updated>2021-09-21T01:28:49.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="hii-am-everrwelcome-to-my-blog">Hi,I am everr.Welcome to my blog.</h1>
+<p>It is my size.</p>
+]]></summary>
         <content type="html"><![CDATA[<h1 id="hii-am-everrwelcome-to-my-blog">Hi,I am everr.Welcome to my blog.</h1>
 <p>It is my size.</p>
+<h2 id="-more-"><!-- more --></h2>
 <h2 id="xaufe">xaufe</h2>
-<p><a href="http://118.126.64.117:8501/xacj">c++考试</a><br>
+<h2 id="c考试"><a href="http://118.126.64.117:8501/xacj">c++考试</a><br>
 <a href="http://aryun.ustcori.com/login?port=6382">物理实验</a><br>
 <a href="https://webvpn.xaufe.edu.cn/login">webvpn</a><br>
 <a href="http://jiaowu.xaufe.edu.cn/">教务处</a><br>
-<a href="https://ds.carsi.edu.cn/secure/">carsi</a></p>
+<a href="https://ds.carsi.edu.cn/secure/">carsi</a></h2>
 <h2 id="tool">tool</h2>
 <p><a href="https://a.newday.me">集装箱</a><br>
 <a href="https://saladict.crimx.com/">沙拉查词</a><br>
