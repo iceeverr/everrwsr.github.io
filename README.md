@@ -1,1 +1,0 @@
-# everrwsr.github.io

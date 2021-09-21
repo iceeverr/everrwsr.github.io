@@ -1,0 +1,189 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>常用链接 | mumu&#39;s blog</title>
+<link rel="shortcut icon" href="https://everrwsr.github.io/favicon.ico?v=1632188784856">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://everrwsr.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="常用链接 | mumu&#39;s blog - Atom Feed" href="https://everrwsr.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="Hi,I am everr.Welcome to my blog.
+It is my size.
+xaufe
+c++考试
+物理实验
+webvpn
+教务处
+carsi
+tool
+集装箱
+沙拉查词
+flomo
+yuque
+..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://everrwsr.github.io">
+  <img class="avatar" src="https://everrwsr.github.io/images/avatar.png?v=1632188784856" alt="">
+  </a>
+  <h1 class="site-title">
+    mumu&#39;s blog
+  </h1>
+  <p class="site-description">
+    一个人如果只对自己的理想赞同，却不为其付出行动，往往是语言上的巨人，行动上的侏儒。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              常用链接
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-09-21
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1 id="hii-am-everrwelcome-to-my-blog">Hi,I am everr.Welcome to my blog.</h1>
+<p>It is my size.</p>
+<h2 id="xaufe">xaufe</h2>
+<p><a href="http://118.126.64.117:8501/xacj">c++考试</a><br>
+<a href="http://aryun.ustcori.com/login?port=6382">物理实验</a><br>
+<a href="https://webvpn.xaufe.edu.cn/login">webvpn</a><br>
+<a href="http://jiaowu.xaufe.edu.cn/">教务处</a><br>
+<a href="https://ds.carsi.edu.cn/secure/">carsi</a></p>
+<h2 id="tool">tool</h2>
+<p><a href="https://a.newday.me">集装箱</a><br>
+<a href="https://saladict.crimx.com/">沙拉查词</a><br>
+<a href="https://flomoapp.com/mine">flomo</a><br>
+<a href="https://www.yuque.com/dashboard/collections">yuque</a></p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#hii-am-everrwelcome-to-my-blog">Hi,I am everr.Welcome to my blog.</a>
+<ul>
+<li><a href="#xaufe">xaufe</a></li>
+<li><a href="#tool">tool</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://everrwsr.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
